@@ -16,7 +16,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(35, 37, 38, 0.541), rgba(65, 67, 69, 0.541)), url(../img/hero.jpg);
+    background-image: linear-gradient(to right, rgb(18 18 18 / 60%), rgb(34 34 34 / 60%)), url(../img/hero.jpg);
     background-position:center;
     background-size: cover;
 }
@@ -150,29 +150,18 @@ main{
     padding-top: 4rem;
 }
 
-.sobre-mi-img{
-    margin: .9rem;
-}
-
-.sobre-mi-img img{
-    max-height: 430px;
-    border-radius: 10px;
-}
-
 .sobre-mi-contenedor{
     display: grid;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
 }
 
 .sobre-mi-texto{
     padding: 1rem;
-    max-width: 800px;
     margin: .9rem;
-    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
-    border-radius: 10px;
+    text-align: center;
 }
 
 .sobre-mi-texto h2, p{
@@ -222,7 +211,7 @@ main{
 	background-color: #24292d;
 	min-height: 100vh;
 	padding: 4rem 15px;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .timeline-section h2{
 	text-align: center;
