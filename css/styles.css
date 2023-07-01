@@ -167,7 +167,7 @@ nav.abajo .link::after{
 
 /* Sobre mi Main */
 main{
-    padding-top: 1rem;
+    padding: 5rem 10px;
 }
 
 .sobre-mi-contenedor{
@@ -189,7 +189,7 @@ main{
 }
 
 .sobre-mi-texto h2{
-    padding: 2rem 0;
+    padding: 1.3rem 0;
     font-size: 2.3rem;
     color: rgb(51, 51, 51);
     font-weight: 300;
@@ -206,7 +206,7 @@ main{
 /* Tecnologias */
 
 .tecnologias{
-    padding-top: 3rem;
+    padding: 4rem 10px;
 }
 
 .tecnologias-contenedor{
@@ -247,7 +247,6 @@ main{
 	background-color: #24292d;
 	min-height: 100vh;
 	padding: 4rem 15px;
-    margin-top: 3rem;
 }
 .timeline-section h2{
 	text-align: center;
