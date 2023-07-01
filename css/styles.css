@@ -167,7 +167,7 @@ nav.abajo .link::after{
 
 /* Sobre mi Main */
 main{
-    padding: 5rem 10px;
+    padding: 4rem 10px;
 }
 
 .sobre-mi-contenedor{
@@ -180,7 +180,6 @@ main{
 
 .sobre-mi-texto{
     padding: 1rem;
-    margin: .9rem;
     text-align: center;
 }
 
@@ -224,8 +223,9 @@ main{
     text-align: center;
     font-size: 2.3rem;
     color: #333333;
-    margin-bottom: 4rem;
+    margin: 0;
     font-weight: 300;
+    padding: 2rem 0;
 }
 
 .tecnologias-contenedor span{
@@ -339,9 +339,9 @@ main{
 }
 
 /* Footer contacto */
-footer{
-    margin-top: 4rem;
-}
+/* footer{
+    
+} */
 .contenedor-formulario{
     display: flex;
     align-items: center;
